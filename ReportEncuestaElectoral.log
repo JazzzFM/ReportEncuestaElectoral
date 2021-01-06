@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.8.13)  5 JAN 2021 19:07
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.8.13)  5 JAN 2021 19:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -537,9 +537,8 @@ Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
 )
 
 Package fontspec Info: Font family 'Poppins-Regular.ttf(0)' created for font
-(fontspec)             'Poppins-Regular.ttf' with options [Mapping =
-(fontspec)             tex-text,Ligatures=TeX,BoldFont =
-(fontspec)             Poppins-Bold.ttf,ItalicFont =
+(fontspec)             'Poppins-Regular.ttf' with options
+(fontspec)             [Ligatures=TeX,BoldFont = Poppins-Bold.ttf,ItalicFont =
 (fontspec)             Poppins-Italic.ttf,BoldItalicFont =
 (fontspec)             Poppins-BoldItalic.ttf].
 (fontspec)              
@@ -565,19 +564,18 @@ t;mapping=tex-text;"
 
 
 Package fontspec Info: Font family 'Poppins-Black.ttf(0)' created for font
-(fontspec)             'Poppins-Black.ttf' with options [Mapping =
-(fontspec)             tex-text,ItalicFont = Poppins-BlackItalic.ttf].
+(fontspec)             'Poppins-Black.ttf' with options [ItalicFont =
+(fontspec)             Poppins-BlackItalic.ttf].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[Poppins-Black.ttf]/OT:script=DFLT;language=dflt;map
-ping=tex-text;"
+(fontspec)             <->"[Poppins-Black.ttf]/OT:script=DFLT;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
 (fontspec)             <->"[Poppins-BlackItalic.ttf]/OT:script=DFLT;language=df
-lt;mapping=tex-text;"
+lt;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 
 \myheight=\skip71
@@ -759,8 +757,8 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  16116 strings out of 479819
- 358755 string characters out of 5895846
- 664905 words of memory out of 5000000
+ 358636 string characters out of 5895846
+ 664649 words of memory out of 5000000
  32942 multiletter control sequences out of 15000+600000
  532960 words of font info for 47 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

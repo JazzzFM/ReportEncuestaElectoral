@@ -58,7 +58,7 @@ distinctio.
 \begin{table}[ht]
 \centering
 \begin{tabularx}{\textwidth}{|C|C|C|C|C|}
-  \rowcolor{igray} \hline
+  \rowcolor{amarillom} \hline
 Sepal.Length & Sepal.Width & Petal.Length & Petal.Width & Species \\ 
   \hline
 5.10 & 3.50 & 1.40 & 0.20 & setosa \\ 
