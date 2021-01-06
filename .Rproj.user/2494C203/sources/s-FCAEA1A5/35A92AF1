@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1609871030320.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "35A92AF1",
+    "lastKnownWriteTime" : 1609895241,
+    "last_content_update" : 1609895241427,
+    "path" : "~/Desktop/ReportEncuestaElectoral/defs.tex",
+    "project_path" : "defs.tex",
+    "properties" : {
+        "cursorPosition" : "72,45",
+        "scrollLine" : "67"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "tex"
+}
