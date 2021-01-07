@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.8.13)  6 JAN 2021 18:55
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.8.13)  6 JAN 2021 21:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1283,112 +1283,76 @@ File: logo.png Graphic file (type bmp)
 File: ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-1-1.pdf Graphic 
 file (type pdf)
 <use ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-1-1.pdf>
-File: figures/objetiv.png Graphic file (type bmp)
-<figures/objetiv.png>
-File: figures/Opera.png Graphic file (type bmp)
-<figures/Opera.png>
-File: figures/uno.png Graphic file (type bmp)
-<figures/uno.png>
-File: figures/dos.png Graphic file (type bmp)
-<figures/dos.png>
-File: figures/tres.png Graphic file (type bmp)
-<figures/tres.png>
+File: ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-2-1.pdf Graphic 
+file (type pdf)
+<use ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-2-1.pdf>
+File: ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-3-1.pdf Graphic 
+file (type pdf)
+<use ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-3-1.pdf>
+File: ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-4-1.pdf Graphic 
+file (type pdf)
+<use ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-4-1.pdf>
+File: ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-5-1.pdf Graphic 
+file (type pdf)
+<use ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-5-1.pdf>
+File: ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-6-1.pdf Graphic 
+file (type pdf)
+<use ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-6-1.pdf>
 File: logo.png Graphic file (type bmp)
 <logo.png>
 [5]
-File: figures/levantamiento.png Graphic file (type bmp)
-<figures/levantamiento.png>
-
-Overfull \hbox (23.603pt too wide) in paragraph at lines 229--230
- [][] 
- []
-
-File: figures/marco.png Graphic file (type bmp)
-<figures/marco.png>
-
-Overfull \hbox (23.603pt too wide) in paragraph at lines 233--234
- [][] 
- []
-
-File: figures/aleatorias.png Graphic file (type bmp)
-<figures/aleatorias.png>
-
-Overfull \hbox (23.603pt too wide) in paragraph at lines 240--241
- [][] 
- []
-
-File: figures/noaleatorias.png Graphic file (type bmp)
-<figures/noaleatorias.png>
-
-Overfull \hbox (23.603pt too wide) in paragraph at lines 244--245
- [][] 
- []
-
-File: figures/unidadesmuestral.png Graphic file (type bmp)
-<figures/unidadesmuestral.png>
-
-Overfull \hbox (94.4048pt too wide) in paragraph at lines 250--251
- [][] 
- []
-
+File: ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-7-1.pdf Graphic 
+file (type pdf)
+<use ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-7-1.pdf>
+File: ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-8-1.pdf Graphic 
+file (type pdf)
+<use ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-8-1.pdf>
+File: ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-9-1.pdf Graphic 
+file (type pdf)
+<use ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-9-1.pdf>
+File: ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-10-1.pdf Graphic
+ file (type pdf)
+<use ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-10-1.pdf>
+File: ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-11-1.pdf Graphic
+ file (type pdf)
+<use ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-11-1.pdf>
 File: logo.png Graphic file (type bmp)
 <logo.png>
 [6]
-File: figures/poliEtapa.png Graphic file (type bmp)
-<figures/poliEtapa.png>
-
-Overfull \hbox (14.16194pt too wide) in paragraph at lines 258--259
- [][] 
- []
-
-File: figures/estratif.png Graphic file (type bmp)
-<figures/estratif.png>
-
-Overfull \hbox (14.16194pt too wide) in paragraph at lines 262--263
- [][] 
- []
-
-File: figures/conglo.png Graphic file (type bmp)
-<figures/conglo.png>
-
-Overfull \hbox (14.16194pt too wide) in paragraph at lines 266--267
- [][] 
- []
-
-File: figures/nivelConfiMin.png Graphic file (type bmp)
-<figures/nivelConfiMin.png>
-
-Overfull \hbox (14.16194pt too wide) in paragraph at lines 273--274
- [][] 
- []
-
-File: figures/nivelConfiFrec.png Graphic file (type bmp)
-<figures/nivelConfiFrec.png>
-
-Overfull \hbox (14.16194pt too wide) in paragraph at lines 277--278
- [][] 
- []
-
-File: figures/nivelConfiMax.png Graphic file (type bmp)
-<figures/nivelConfiMax.png>
-
-Overfull \hbox (14.16194pt too wide) in paragraph at lines 281--282
- [][] 
- []
-
-File: logo.png Graphic file (type bmp)
-<logo.png>
-[7]
+File: ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-12-1.pdf Graphic
+ file (type pdf)
+<use ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-12-1.pdf>
+File: ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-13-1.pdf Graphic
+ file (type pdf)
+<use ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-13-1.pdf>
+File: ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-14-1.pdf Graphic
+ file (type pdf)
+<use ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-14-1.pdf>
+File: ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-15-1.pdf Graphic
+ file (type pdf)
+<use ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-15-1.pdf>
+File: ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-16-1.pdf Graphic
+ file (type pdf)
+<use ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-16-1.pdf>
+File: ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-17-1.pdf Graphic
+ file (type pdf)
+<use ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-17-1.pdf>
 File: figures/figure1.png Graphic file (type bmp)
 <figures/figure1.png>
 
 AED: lastpage setting LastPage
 File: logo.png Graphic file (type bmp)
 <logo.png>
+[7]
+File: logo.png Graphic file (type bmp)
+<logo.png>
 [8]
 File: logo.png Graphic file (type bmp)
 <logo.png>
-[9] (./ReportEncuestaElectoral.aux
+[9]
+File: logo.png Graphic file (type bmp)
+<logo.png>
+[10] (./ReportEncuestaElectoral.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 )
@@ -1397,12 +1361,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 26549 strings out of 479819
- 578072 string characters out of 5895846
- 1132748 words of memory out of 5000000
- 43147 multiletter control sequences out of 15000+600000
+ 26565 strings out of 479819
+ 582930 string characters out of 5895846
+ 1134748 words of memory out of 5000000
+ 43163 multiletter control sequences out of 15000+600000
  533066 words of font info for 48 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  69i,13n,107p,871b,962s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ReportEncuestaElectoral.pdf (9 pages).
+Output written on ReportEncuestaElectoral.pdf (10 pages).

@@ -35,6 +35,8 @@ library(kableExtra)
 library(lubridate)
 library(scales)
 library(showtext)
+library(ggfittext)
+library(ggwordcloud)
 # settings
 font.add("opensans", regular = "OpenSans-Regular.ttf")
 showtext.auto()
@@ -59,6 +61,9 @@ procesamiento <- function(column){
     
     return(DB)
 }
+
+formDisMuestralBd <- "tElectoralTest_investigacion_disenoMuestral"
+listadoDisMuestral <- tbl(pool, formDisMuestralBd) %>% collect()
 ```
 
 \maketitle
@@ -243,15 +248,21 @@ ggPoblacionObjetivo(DB)
 \begin{figure}[!htb]
   \begin{minipage}{0.3\textwidth}
     \centering
-    \includegraphics[width=1.0\linewidth]{figures/uno.png}
+```{r, out.width="\\textwidth", fig.width=4.0,fig.height=3.0,fig.asp=NA}
+procesamiento("cantidadBloques") %>% ggCantidadBloquesMin()
+```
   \end{minipage}\hfill
   \begin{minipage}{0.3\textwidth}
     \centering
-    \includegraphics[width=1.0\linewidth]{figures/dos.png}
+```{r, out.width="\\textwidth", fig.width=4.0,fig.height=3.0,fig.asp=NA}
+procesamiento("cantidadBloques") %>% ggCantidadBloquesModa()
+```
   \end{minipage}
   \begin{minipage}{0.3\textwidth}
     \centering
-    \includegraphics[width=1.0\linewidth]{figures/tres.png}
+```{r, out.width="\\textwidth", fig.width=4.0,fig.height=3.0,fig.asp=NA}
+procesamiento("cantidadBloques") %>% ggCantidadBloquesMax()
+```
   \end{minipage}
 \end{figure}
 
@@ -262,28 +273,38 @@ ggPoblacionObjetivo(DB)
 \begin{figure}[!htb]
     \begin{minipage}{0.5\textwidth}
       \centering
-      \includegraphics[width=1.1\linewidth]{figures/levantamiento.png}
+```{r, out.width="\\textwidth", fig.width=3.0,fig.height=3.0,fig.asp=NA}
+ggbarrasLevantamiento(listadoDisMuestral)
+```
     \end{minipage}\hfill
     \begin{minipage}{0.5\textwidth}
       \centering
-      \includegraphics[width=1.1\linewidth]{figures/marco.png}
+```{r, out.width="\\textwidth", fig.width=3.0,fig.height=3.0,fig.asp=NA}
+    WordCldTV(listadoDisMuestral)
+```
     \end{minipage}
 \end{figure}
 
 \begin{figure}[!htb]
   \begin{minipage}{0.5\textwidth}
     \centering
-    \includegraphics[width=1.1\linewidth]{figures/aleatorias.png}
-  \end{minipage}\hfill
+```{r, out.width="\\textwidth", fig.width=3.0,fig.height=3.0,fig.asp=NA}
+ggAleatoria(listadoDisMuestral)
+```
+    \end{minipage}\hfill
   \begin{minipage}{0.5\textwidth}
     \centering
-    \includegraphics[width=1.1\linewidth]{figures/noaleatorias.png}
+```{r, out.width="\\textwidth", fig.width=3.0,fig.height=3.0,fig.asp=NA}
+ggNoaleatoria(listadoDisMuestral)
+```
   \end{minipage}
 \end{figure}
 
 \begin{figure}[!htb]
   \centering
-  \includegraphics[width=1.2\linewidth]{figures/unidadesmuestral.png}   
+```{r, out.width="\\textwidth", fig.width=5.0,fig.height=3.0,fig.asp=NA}
+ggUnidadMuestral(listadoDisMuestral)
+```
 \end{figure}
 
 \newpage
@@ -291,31 +312,44 @@ ggPoblacionObjetivo(DB)
 \begin{figure}[!htb]
   \begin{minipage}{0.3\textwidth}
     \centering
-    \includegraphics[width=1.1\linewidth]{figures/poliEtapa.png}
+```{r, out.width="\\textwidth", fig.width=3.0,fig.height=3.0,fig.asp=NA}
+ggPoliEtapa(listadoDisMuestral)
+```
   \end{minipage}\hfill
   \begin{minipage}{0.3\textwidth}
     \centering
-    \includegraphics[width=1.1\linewidth]{figures/estratif.png}
+```{r, out.width="\\textwidth", fig.width=3.0,fig.height=3.0,fig.asp=NA}
+ggEstratificada(listadoDisMuestral)
+```
   \end{minipage}
     \begin{minipage}{0.3\textwidth}
     \centering
-    \includegraphics[width=1.1\linewidth]{figures/conglo.png}
+```{r, out.width="\\textwidth", fig.width=3.0,fig.height=3.0,fig.asp=NA}
+ggConglomerados(listadoDisMuestral)
+```
   \end{minipage}
 \end{figure}
 
 \begin{figure}[!htb]
   \begin{minipage}{0.3\textwidth}
   \centering
-  \includegraphics[width=1.1\linewidth]{figures/nivelConfiMin.png}
+```{r, out.width="\\textwidth", fig.width=3.0,fig.height=3.0,fig.asp=NA}
+ ggMinNivelConfianza(listadoDisMuestral)
+```
+
   \end{minipage}\hfill
   \begin{minipage}{0.3\textwidth}
     \centering
-    \includegraphics[width=1.1\linewidth]{figures/nivelConfiFrec.png}
+```{r, out.width="\\textwidth", fig.width=3.0,fig.height=3.0,fig.asp=NA}
+ggModaNivelConfianza(listadoDisMuestral)
+```
   \end{minipage}
   \begin{minipage}{0.3\textwidth}
     \centering
-    \includegraphics[width=1.1\linewidth]{figures/nivelConfiMax.png}
-    \end{minipage}
+```{r, out.width="\\textwidth", fig.width=3.0,fig.height=3.0,fig.asp=NA}
+ ggMaxNivelConfianza(listadoDisMuestral)
+```
+\end{minipage}
 \end{figure}
 
 \newpage
