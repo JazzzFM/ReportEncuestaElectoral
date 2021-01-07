@@ -1,6 +1,7 @@
 % Author: Karol KozioL and Jaziel Flores
 % License: GPL-3
 % Modified by: Sarah Wagner
+% Se requiere devtools::install_github("INWTlab/ireports")
 
 % % % packages -----------------------------------------------------------------------------------
 \usepackage{amsmath}
@@ -19,13 +20,25 @@
 \usepackage{tikz}
 \usepackage{titlesec}
 \usepackage{xcolor, colortbl}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}	
+\usepackage{empheq}
+\usepackage{tabularx}
+\usepackage[numbib]{tocbibind}
+\usepackage{enumitem}
+\usepackage[most]{tcolorbox}
+\usepackage[numbib]{tocbibind}
+\usepackage{enumitem}
+\usepackage{pgf}
+\usepackage{cprotect}	
+\usepackage{pdfpages}
+\usepackage{lipsum}
+\tcbuselibrary{listings,breakable}
+
 
 % % % settings -----------------------------------------------------------------------------------
 
 % % custom colors
-\definecolor{iblue}{HTML}{\iblue}
-\definecolor{igray}{HTML}{\igray}
-
 \definecolor{morena}{HTML}{751438}
 \definecolor{amarillom}{HTML}{ba9f19}
 
@@ -56,7 +69,7 @@
 		\parbox[b][\paperheight]{\paperwidth}{%
 			\vfill
 			\centering
-			\includegraphics[width=\paperwidth,height=\paperheight]{\cover}%
+			\includegraphics[width=\paperwidth, height=\paperheight]{\cover}%
 			\vfill
 }}}
 
@@ -107,5 +120,14 @@
 \rfoot{\pagename~\thepage \hspace{1pt} / \pageref{LastPage}}
 \renewcommand\headrulewidth{0pt}
 \renewcommand\footrulewidth{0pt}
+
+% My customizable boxes
+\newtcolorbox{mybox}[2][]{%
+  attach boxed title to top center
+               = {yshift=-8pt},
+  colback      = black!5!white,
+  colframe     = black!75!black,
+  title        = #1,
+}
 
 
