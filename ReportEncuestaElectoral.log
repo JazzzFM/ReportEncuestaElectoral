@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.8.13)  6 JAN 2021 21:01
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.8.13)  7 JAN 2021 18:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1280,6 +1280,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 186--186
 File: logo.png Graphic file (type bmp)
 <logo.png>
 [4]
+File: logo.png Graphic file (type bmp)
+<logo.png>
+[5]
 File: ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-1-1.pdf Graphic 
 file (type pdf)
 <use ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-1-1.pdf>
@@ -1300,7 +1303,7 @@ file (type pdf)
 <use ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-6-1.pdf>
 File: logo.png Graphic file (type bmp)
 <logo.png>
-[5]
+[6]
 File: ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-7-1.pdf Graphic 
 file (type pdf)
 <use ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-7-1.pdf>
@@ -1316,15 +1319,15 @@ File: ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-10-1.pdf Graphic
 File: ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-11-1.pdf Graphic
  file (type pdf)
 <use ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-11-1.pdf>
-File: logo.png Graphic file (type bmp)
-<logo.png>
-[6]
 File: ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-12-1.pdf Graphic
  file (type pdf)
 <use ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-12-1.pdf>
 File: ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-13-1.pdf Graphic
  file (type pdf)
 <use ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-13-1.pdf>
+File: logo.png Graphic file (type bmp)
+<logo.png>
+[7]
 File: ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-14-1.pdf Graphic
  file (type pdf)
 <use ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-14-1.pdf>
@@ -1337,22 +1340,16 @@ File: ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-16-1.pdf Graphic
 File: ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-17-1.pdf Graphic
  file (type pdf)
 <use ReportEncuestaElectoral_files/figure-latex/unnamed-chunk-17-1.pdf>
+File: logo.png Graphic file (type bmp)
+<logo.png>
+[8]
 File: figures/figure1.png Graphic file (type bmp)
 <figures/figure1.png>
 
 AED: lastpage setting LastPage
 File: logo.png Graphic file (type bmp)
 <logo.png>
-[7]
-File: logo.png Graphic file (type bmp)
-<logo.png>
-[8]
-File: logo.png Graphic file (type bmp)
-<logo.png>
-[9]
-File: logo.png Graphic file (type bmp)
-<logo.png>
-[10] (./ReportEncuestaElectoral.aux
+[9] (./ReportEncuestaElectoral.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 )
@@ -1363,10 +1360,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  26565 strings out of 479819
  582930 string characters out of 5895846
- 1134748 words of memory out of 5000000
+ 1119748 words of memory out of 5000000
  43163 multiletter control sequences out of 15000+600000
  533066 words of font info for 48 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  69i,13n,107p,871b,962s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ReportEncuestaElectoral.pdf (10 pages).
+Output written on ReportEncuestaElectoral.pdf (9 pages).

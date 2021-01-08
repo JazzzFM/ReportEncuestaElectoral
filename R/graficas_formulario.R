@@ -23,11 +23,11 @@ gglevantamiento <- function(BD) {
     theme(
       axis.title.y = element_blank(),
       axis.title.x = element_blank(),
-      text = element_text(family = "Avenir Next", size = 20),
+      text = element_text(family = "Open Sans", size = 15),
       plot.title = element_text(size = 22,
                                 colour =  "#751438",
                                 hjust = 0),
-      axis.text.y = element_text(family = "Avenir Next", size = 15),
+      axis.text.y = element_text(family = "Open Sans", size = 15),
       axis.text.x = element_blank(),
       axis.line.x = element_blank(),
       panel.grid.major.y = element_blank(),
@@ -59,8 +59,8 @@ ggbarrasLevantamiento <- function(DB) {
     scale_fill_brewer(palette="Spectral") +
     theme(
       axis.title.y = element_text(family = "Open Sans", colour = "#751438", size = 15),
-      text = element_text(family = "Open Sans", size = 20),
-      plot.title = element_text(size = 22,
+      text = element_text(family = "Open Sans", size = 15),
+      plot.title = element_text(size = 15,
                                 colour =  "#751438",
                                 hjust = 0),
       axis.text.y = element_text(family = "Open Sans", size = 15),
@@ -99,8 +99,8 @@ WordCldTV <- function(BD){
     theme_minimal() +
     labs(title = "Marco Muestral") +
     theme(
-      text = element_text(family = "Open Sans", size = 20),
-      plot.title = element_text(size = 22,
+      text = element_text(family = "Open Sans", size = 15),
+      plot.title = element_text(size = 15,
                                 colour =  "#751438",
                                 hjust = 0),
       axis.text.y = element_text(family = "Avenir Next", size = 15),
@@ -140,8 +140,8 @@ ggAleatoria <- function(BD){
     theme(panel.grid = element_blank(),
           axis.text = element_blank(),
           axis.title = element_blank(),
-          text = element_text(family = "Open Sans", size = 20),
-          plot.title = element_text(size = 22,
+          text = element_text(family = "Open Sans", size = 15),
+          plot.title = element_text(size = 15,
                                     colour =  "#751438",
                                     hjust = 0),
           axis.line.x = element_blank(),
@@ -180,8 +180,8 @@ ggNoaleatoria <- function(BD){
     theme(panel.grid = element_blank(),
           axis.text = element_blank(),
           axis.title = element_blank(),
-          text = element_text(family = "Open Sans", size = 20),
-          plot.title = element_text(size = 22,
+          text = element_text(family = "Open Sans", size = 15),
+          plot.title = element_text(size = 15,
                                     colour =  "#751438",
                                     hjust = 0),
           axis.line.x = element_blank(),
@@ -318,7 +318,7 @@ ggUnidadMuestral <- function(BD) {
     theme(
       axis.title.y = element_blank(),
       axis.title.x = element_blank(),
-      text = element_text(family = "Open Sans", size = 15),
+      text = element_text(family = "Open Sans", size = 10),
       plot.title = element_text(size = 22,
                                 colour =  "#751438",
                                 hjust = 0),
